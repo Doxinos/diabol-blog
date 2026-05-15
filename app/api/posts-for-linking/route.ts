@@ -61,7 +61,7 @@ export async function GET(request: Request) {
       categories: string[];
     }) => ({
       title: post.title,
-      url: `/post/sidebar/${post.slug}`,
+      url: `/${post.slug}`,
       description: post.excerpt || post.directAnswer || "",
       categories: post.categories || [],
     }));

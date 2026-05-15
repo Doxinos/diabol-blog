@@ -52,7 +52,7 @@ export async function POST(req: NextRequest) {
       return NextResponse.json({ message }, { status: 400 });
     }
 
-    const staleRoutes = [`/post/sidebar/${body.slug.current}`, `/${body.slug.current}`, "/"];
+    const staleRoutes = [`/${body.slug.current}`, "/"];
     staleRoutes.forEach((route) => {
       revalidatePath(route);
     });
