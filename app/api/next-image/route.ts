@@ -26,6 +26,13 @@ const ALL_STOCK_IMAGES = [
   "ai-turntable-needle-song.jpg",
   "ai-woman-robot-futuristic.jpg",
   "ai-wooden-surfboard-carved-and-painted-hawaiian.jpg",
+  "ai-abstract-digital-art.jpg",
+  "ai-abstract-face.jpg",
+  "ai-classic-ball.jpg",
+  "ai-close-up-panther.jpg",
+  "ai-coffee-espresso.jpg",
+  "ai-dolphin.jpg",
+  "ai-horse.jpg",
 ];
 
 /**
